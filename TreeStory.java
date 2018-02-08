@@ -15,6 +15,8 @@ public class TreeStory {
         
         // 字串轉整數，Integer.parseInt
         int age = Integer.parseInt(ageAsString);
+        // Swift 的 字串轉整數
+        // var age = Int(ageAsString)
       
         if (age < 13) {
           // insert exit code

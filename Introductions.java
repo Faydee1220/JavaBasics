@@ -12,10 +12,13 @@ public class Introductions {
       
         // readLine 可以回傳輸入的值
         String firstName = console.readLine("What is your Name?  ");
-          
+        
         // printf 的 f 代表 fromatted text
         // %s 的 s 代表 String
         console.printf("Hello, my name is %s.\n", firstName);
         console.printf("%s is learning how to write java.\n", firstName);
+        
+        // Swift 的 print
+        // print("Hello, my name is \(firstName).\n")
   }
 }
